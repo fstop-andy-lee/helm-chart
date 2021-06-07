@@ -15,7 +15,7 @@
    helm package helm-chart-sources/*
 
 5. Create the Helm chart repository index
-   helm repo index --url https://github.com/fstop-andy-lee/helm-chart .   
+   helm repo index --url https://fstop-andy-lee.github.io/helm-chart/ .   
 
 6. Push the git repository on Git repo
    git add . && git commit -m "commit" && git push origin master
@@ -23,12 +23,12 @@
 7. Configure the “helm-chart” repository as a web pages site
 
 8. Configure helm client
-   helm repo add testrepo https://github.com/fstop-andy-lee/helm-chart
+   helm repo add testrepo https://fstop-andy-lee.github.io/helm-chart/
 
 9. Test the Helm chart repository
    helm search test
 
 10. Add new charts to an existing repository
-   helm repo index --url https://mattiaperi.github.io/helm-chart/ --merge index.yaml .
+   helm repo index --url https://fstop-andy-lee.github.io/helm-chart/ --merge index.yaml .
    
    
