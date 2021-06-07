@@ -1,4 +1,10 @@
 
+## create git repo
+
+1. git config user.email "andy_lee@fstop.com.tw"
+
+2. git config user.name "Andy Lee"
+
 ## create helm chart repo
 
 1. Create robots.txt 
