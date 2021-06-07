@@ -6,7 +6,8 @@ replicaCount: 1
 
 image:
   repository: andylee1973/swift-messaging
-  pullPolicy: IfNotPresent
+  # Always, IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
