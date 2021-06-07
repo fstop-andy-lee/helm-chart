@@ -3,9 +3,9 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-07T16:32:46.9130131+08:00"
+    created: "2021-06-07T16:33:56.18154+08:00"
     description: A Helm chart for Kubernetes
-    digest: 263ab6ae5cb8a6773d4a4340f874fb2b6155a9a3142ebac140d8257728338d08
+    digest: 08fe7dcd3ade0b27a06d56c9855cfc23a52485ad24e339c1fa579c2ddf6aa76a
     name: helm-chart-test
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   swift-messaging:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-06-07T16:32:46.9139818+08:00"
+    created: "2021-06-07T16:33:56.1825151+08:00"
     description: A Helm chart for deploy swift messaging services to Kubernetes
-    digest: c954515594adf9ad516cb36ba416aabbf734061732bb38cb256d0b9ff0f83edd
+    digest: dc0ba2b8e3fdddf1021b843a9ef2077779ff3f869f5ee2f7fd2e641b2f79bff5
     name: swift-messaging
     type: application
     urls:
@@ -24,7 +24,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-07T16:32:46.9139818+08:00"
+    created: "2021-06-07T16:33:56.18154+08:00"
     description: A Helm chart for Kubernetes
     digest: 2eb41f523185bd461815e03190d1035063df8d634a7d5dc36e1f24ee410eed19
     name: swift-messaging
@@ -32,4 +32,4 @@ entries:
     urls:
     - https://fstop-andy-lee.github.io/helm-chart/swift-messaging-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-07T16:32:46.9130131+08:00"
+generated: "2021-06-07T16:33:56.1805663+08:00"
