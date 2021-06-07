@@ -52,7 +52,7 @@
 ## helm chart 結構
 
     mychart
-    ├── Chart.yaml
+    ├── Chart.yaml # 定義 chart 資訊，包含名稱、版本、敘述
     ├── charts # 存放其他相依的 chart 
     ├── templates # chart 模板
     │   ├── NOTES.txt # helm install 時候的提示訊息
