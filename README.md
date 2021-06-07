@@ -17,6 +17,8 @@
    
    helm create helm-chart-sources/helm-chart-test
    
+   helm create helm-chart-sources/swift-messaging
+   
 3. Lint the chart
 
    helm lint helm-chart-sources/*
