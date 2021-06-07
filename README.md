@@ -32,7 +32,7 @@
    helm repo add testrepo https://fstop-andy-lee.github.io/helm-chart/
 
 9. Test the Helm chart repository
-   helm search test
+   helm search repo
 
 10. Add new charts to an existing repository
    helm repo index --url https://fstop-andy-lee.github.io/helm-chart/ --merge index.yaml .
