@@ -49,4 +49,20 @@
 
    helm repo index --url https://fstop-andy-lee.github.io/helm-chart/ --merge index.yaml .
    
-   
+## helm chart 結構
+
+    mychart
+    ├── Chart.yaml
+    ├── charts # 存放其他相依的 chart 
+    ├── templates # chart 模板
+    │   ├── NOTES.txt # helm install 時候的提示訊息
+    │   ├── _helpers.tpl # 建立模板的輔助
+    │   ├── deployment.yaml # Kubernetes deployment 配置檔
+    │   ├── ingress.yaml # Kubernetes ingress 配置檔
+    │   ├── service.yaml # Kubernetes service 配置檔
+    │   ├── serviceaccount.yaml # Kubernetes serviceaccount 配置檔
+    │   └── tests
+    │       └── test-connection.yaml
+    └── values.yaml # 定義 chart 模板中的自定義設定值，可以在 helm install 或 helm update 覆寫
+
+	
