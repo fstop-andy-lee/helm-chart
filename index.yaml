@@ -3,20 +3,53 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-07T17:12:24.1866827+08:00"
+    created: "2021-07-30T10:31:38.7880837+08:00"
     description: A Helm chart for Kubernetes
-    digest: 9414ddde78427417db7f1c7aa78877d16e7e0043e4a0c04c5ce42918b6b8be04
+    digest: 1457a91aab936b6f2fabb6c240db8a2a46d8156bfcdd9fea6e56ea76fb969928
     name: helm-chart-test
     type: application
     urls:
     - https://fstop-andy-lee.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
+  service1:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-07-30T10:31:38.7890191+08:00"
+    description: A Helm chart for deploy service1 to Kubernetes
+    digest: 3bcedc51fe3a88eb3f112289babfd71819425e8eedad36e7ae62c32ea77231d6
+    name: service1
+    type: application
+    urls:
+    - https://fstop-andy-lee.github.io/helm-chart/service1-1.0.0.tgz
+    version: 1.0.0
+  service2:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-07-30T10:31:38.7890191+08:00"
+    description: A Helm chart for deploy service2 to Kubernetes
+    digest: ca5e02137705068edd88b8019809ce3a188e4b6b1dc89b016bbf838269364435
+    name: service2
+    type: application
+    urls:
+    - https://fstop-andy-lee.github.io/helm-chart/service2-1.0.0.tgz
+    version: 1.0.0
+  service3:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-07-30T10:31:38.7900002+08:00"
+    description: A Helm chart for deploy service3 to Kubernetes
+    digest: af2314cb7c9ba80a385ba206d2a985ea4791b673e72be24fe152259d65536424
+    name: service3
+    type: application
+    urls:
+    - https://fstop-andy-lee.github.io/helm-chart/service3-1.0.0.tgz
+    version: 1.0.0
   swift-messaging:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-06-07T17:12:24.1872018+08:00"
+    created: "2021-07-30T10:31:38.7900002+08:00"
     description: A Helm chart for deploy swift messaging services to Kubernetes
-    digest: 8aa87e18e8e3b45eb92df706617169821e64d0b4d01784a4b8287f7d44448eaf
+    digest: 04fe166df2f72de97e26a88e61afe93dd2fa1362ee6490d3bdc2d095f33251d2
     name: swift-messaging
     type: application
     urls:
@@ -32,4 +65,4 @@ entries:
     urls:
     - https://fstop-andy-lee.github.io/helm-chart/swift-messaging-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-07T17:12:24.1856839+08:00"
+generated: "2021-07-30T10:31:38.7880837+08:00"
